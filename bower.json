@@ -1,0 +1,22 @@
+{
+  "name": "adapt-contrib-mps",
+  "version": "0.0.0",
+  "homepage": "https://github.com/adamlaird/adapt-contrib-mps",
+  "authors": [
+    "Daryl Hedley <adamj.laird@hotmail.com>"
+  ],
+  "description": "mps version of core bundled theme",
+  "main": "js/mps.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

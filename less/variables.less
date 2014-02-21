@@ -1,0 +1,116 @@
+// Main colors
+// ===========
+@primary-color:#3eb4e4;
+@secondary-color:#1b87b2;
+@tertiary-color:darken(#1b87b2, 10%);
+
+@foreground-color:#333;
+@background-color:#fff;
+
+@inverted-foreground-color:#fff;
+@inverted-background-color:#3eb4e4;
+
+@transparency:rgba(255,255,255,0.8);
+
+// Item setup
+// ==========
+@item-color:@primary-color;
+@item-hover-color:@secondary-color;
+@item-disabled-color:#666;
+@item-visited-color:@secondary-color;
+@item-selected-color:@secondary-color;
+@item-text-color:#fff;
+@item-text-hover-color:#fff;
+@item-text-disabled-color:#fff;
+@item-text-visited-color:#fff;
+@item-text-selected-color:#fff;
+
+@item-padding-top:10px;
+@item-padding-right:10px;
+@item-padding-bottom:10px;
+@item-padding-left:10px;
+
+@item-padding:@item-padding-top @item-padding-right @item-padding-bottom @item-padding-left;
+
+@item-spacing:2px;
+
+// Button
+// ======
+@button-color:#3eb4e4;
+@button-hover-color:#1b87b2;
+@button-disabled-color:#ccc;
+
+@button-text-color:#fff;
+@button-text-hover-color:#fff;
+@button-text-disabled-color:#aaa;
+
+@button-padding-top:8px;
+@button-padding-right:10px;
+@button-padding-bottom:8px;
+@button-padding-left:10px;
+
+@button-padding:@button-padding-top @button-padding-right @button-padding-bottom @button-padding-left;
+
+// Border
+// ======
+@border-width:1px;
+@border-style:solid;
+@border-color:#c5c5c5;
+@border: @border-width @border-style @border-color;
+
+// Responsive breakpoints
+// ======================
+.responsive-large {
+    @media all and (min-width:1024px) {
+        width:1024px;
+        margin:0 auto;
+    }
+}
+
+.responsive-medium {
+    @media all and (max-width:760px) and (min-width:520px) {
+        width:520px;
+        margin:0 auto;
+    }
+}
+
+.responsive-small {
+    @media all and (max-width:519px) {
+        width:100%;
+        margin:0 auto;
+    }
+}
+
+@ie8-max-width:1024px;
+
+// Global spacing
+// ==============
+@content-padding:40px 20px;
+@page-title-padding:40px 20px;
+@article-title-padding:40px 20px 0px;
+@article-body-padding:10px 20px;
+@block-title-padding:40px 0px 0px;
+@block-body-padding:10px 0px;
+@component-title-padding:0px;
+@component-body-padding:0px;
+
+@title-spacing:10px 0px;
+@body-spacing:0px 0px 20px;
+
+// Fonts
+// =====
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+@font-family:'Open Sans', sans-serif;
+@font-size:16px;
+@font-line-height-extra:10px;
+@font-color:@foreground-color;
+@font-weight-light:300;
+@font-weight-normal:400;
+@font-weight-bold:600;
+
+// Icons
+// =====
+@icon-size:24px;
+@icon-correct-color:#51FB66;
+@icon-incorrect-color:#F14E4E;

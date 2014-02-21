@@ -1,0 +1,23 @@
+{
+  "name": "adapt-contrib-mps",
+  "version": "0.0.1",
+  "description": "MPS version of contributed vanilla theme",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamlaird/adapt-contrib-mps.git"
+  },
+  "author": "AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/adamlaird/adapt-contrib-mps/issues"
+  },
+  "devDependencies": {
+    "karma": "~0.9",
+    "karma-mocha": "*",
+    "karma-expect": "*"
+  }
+}
