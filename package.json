@@ -1,7 +1,7 @@
 {
   "name": "adapt-contrib-mps",
   "version": "0.0.1",
-  "description": "MPS version of contributed vanilla theme",
+  "description": "A contributed vanilla theme",
   "main": "",
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"

@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "homepage": "https://github.com/adamlaird/adapt-contrib-mps",
   "authors": [
-    "Daryl Hedley <adamj.laird@hotmail.com>"
+    "Adam Laird <adamj.laird@gmail.com>"
   ],
-  "description": "mps version of core bundled theme",
+  "description": "A core bundled theme",
   "main": "js/mps.js",
   "keywords": [
     "adapt-plugin",
