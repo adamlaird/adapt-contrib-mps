@@ -1,5 +1,5 @@
 {
-  "name": "adapt-contrib-mps",
+  "name": "adapt-mps-theme",
   "version": "0.0.1",
   "description": "A contributed vanilla theme",
   "main": "",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adamlaird/adapt-contrib-mps.git"
+    "url": "git://github.com/adamlaird/adapt-mps-theme.git"
   },
   "author": "AdaptLearning",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/adamlaird/adapt-contrib-mps/issues"
+    "url": "https://github.com/adamlaird/adapt-mps-theme/issues"
   },
   "devDependencies": {
     "karma": "~0.9",
